@@ -4,6 +4,12 @@
 
 This is an unofficial study repository that documents the architecture and runtime workflow of Claude Code in Markdown and Obsidian Canvas format.
 
+> 当前版本：`v1.1.0`
+>
+> 更新时间：`2026-04-10`
+>
+> 详细变更见 [`CHANGELOG.md`](./CHANGELOG.md)，机器可读版本号见 [`VERSION`](./VERSION)。
+
 ## 仓库内容
 
 - `compact_architecture.md`
@@ -14,6 +20,8 @@ This is an unofficial study repository that documents the architecture and runti
   从宿主工程视角解释 Claude Code 的运行时底盘。
 - `entrypoint_architecture.md`
   说明 CLI 入口与命令分发。
+- `eval_harness_introduction.md`
+  解释 evaluation harness 与 runtime harness 的区别与典型形态。
 - `QueryEngine_architecture.md`
   说明 QueryEngine 的职责与状态流转。
 - `query_architecture.md`
@@ -36,6 +44,8 @@ This is an unofficial study repository that documents the architecture and runti
   聚焦系统提示词与上下文组织方式。
 - `context_architecture.md`
   说明环境感知、Git 状态注入与系统上下文构建。
+- `srcarchitecture.md`
+  提供 `src/` 源码结构的全量索引与高层模块导览。
 - `Claude-Code-Architecture.canvas`
   Claude Code 架构总览白板。
 - `Harness-Engineering-Architecture.canvas`
@@ -54,6 +64,10 @@ This is an unofficial study repository that documents the architecture and runti
 3. 最后按模块深入 `query`、`Tool`、`memory`、`permissions` 等专题文档。
 
 如果你使用 Obsidian，可以直接打开本仓库并查看两个 `.canvas` 文件，它们适合做整体导览。
+
+## 最近更新
+
+- `v1.1.0`：新增 `eval_harness_introduction.md` 与 `srcarchitecture.md`，并同步更新 Harness 术语说明与工程白板。
 
 ## 仓库定位
 

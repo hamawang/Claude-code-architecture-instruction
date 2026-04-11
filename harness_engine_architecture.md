@@ -1,5 +1,7 @@
 # Harness 工程全景白板：Claude Code 运行时宿主架构
 
+> **术语消歧义**：本笔记讨论的是 **runtime harness / agent harness**（把 LLM 包装成能干活的 agent 的运行时脚手架）。与之平行的另一个同名概念是 **evaluation harness / test harness**（给 agent 出题打分的外部裁判系统，如 SWE-bench），见 [[eval_harness_introduction]]。两者同名但不是一层东西——本笔记是"选手的身体"，那篇是"赛马场的裁判"。
+
 ## 什么是 Harness？
 
 **Harness（运行时宿主工程）= 除了大模型本身之外的一切工程代码。**
